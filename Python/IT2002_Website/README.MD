@@ -12,10 +12,13 @@ sudo -i -u postgres
 ```
   
 If postgres is not already installed,
-'sudo apt -y install postgresql-14'
-
+```
+sudo apt -y install postgresql-14
+```
 Create database, here I just used database named "database"
-'psql database'
+```
+psql database
+```
 
 Run the sql queries under sql folder,
 first creating table by running queires schema.sql,
@@ -23,18 +26,26 @@ followed by adding company, property, users, transactions.
 Here, the data are randomly generated using www.mockaroo.com
 
 Next, install pip and the requirements
-'sudo apt install python3-pip'
-'pip install -r requirements.txt'
+```
+sudo apt install python3-pip
+pip install -r requirements.txt
+```
 
 Create tmux session
-'tmux new -s Flask'
-Here I named the session as Flask
+```
+tmux new -s Flask
+```
+Here I named the session 'Flask'
 
 If tmux is not installed,
-'sudo apt-get install tmux'
+```
+sudo apt-get install tmux
+```
 
 Run the app
-'sudo python3 app.py'
+```
+sudo python3 app.py
+```
 Open http://54.255.148.131:5000/
 Adjust accordingly with the public ip address of the EC2 you have created
 

@@ -11,18 +11,19 @@ the units were converted into oz;
 ‘1 750-ml’ to ‘25.4 oz’, ‘2 750-ml’ to ‘50.8 oz’, ‘splash’ to ‘0.5 oz’, ‘1’ for egg to ‘0.75 oz’, ‘Juice of Lemon or Lime’ to ‘1.5 oz’, ‘2 bottles’ to ‘50 oz’. 
 After doing so, extra column, abv, alcohol by volume (%), has been added to the dataset where each of the ingredient’s abv has been added as follows.
 
-> 5%: Beer, Cider, Strout
-> 10%: Aperol
-> 12%: Port, Sherry, Wine, Champagne
-> 15%: Cynar, Claret, Punt e Mes
-> 20%: Vermouth, Schnapps, Curacao, Triple Sec, Creme types, Amaretto, Liqueuer types, Dubonnet (Rouge), Lillet (Blanc/Rouge), Sake, Amaro, Madeira, Campari, Swedish Punch
-> 25%: Anisette, Cherry Heering
-> 30%: Maraschino, Limoncello
-> 40%: Rum/Whiskey/Brandy/Gin/Vodka/Cognac/Tequila types, Bitters, Benedictine, Kummel, Fernet-Branca, Grand Marnier, Pimm’s No. 1 Cup, Kirschwasser, B & B, Strega, Aquavit, Calvados, Pisco, Sambuca, Forbidden Fruit, Becherovka, Drambuie
-> 45%: Applejack, Absinthe, Galliano, Cachaca
-> 50%: 100 proof vodka
-> 55%: Chartreuse, Mezcal, Armagnac
-> 75.5%: 151-Proof Rum
+- 5%: Beer, Cider, Strout
+- 10%: Aperol
+- 12%: Port, Sherry, Wine, Champagne
+- 15%: Cynar, Claret, Punt e Mes
+- 20%: Vermouth, Schnapps, Curacao, Triple Sec, Creme types, Amaretto, Liqueuer types, Dubonnet (Rouge), Lillet (Blanc/Rouge), Sake, Amaro, Madeira, Campari, Swedish Punch
+- 25%: Anisette, Cherry Heering
+- 30%: Maraschino, Limoncello
+- 40%: Rum/Whiskey/Brandy/Gin/Vodka/Cognac/Tequila types, Bitters, Benedictine, Kummel, Fernet-Branca, Grand Marnier, Pimm’s No. 1 Cup, Kirschwasser, B & B, Strega, Aquavit, Calvados, Pisco, Sambuca, Forbidden Fruit, Becherovka, Drambuie
+- 45%: Applejack, Absinthe, Galliano, Cachaca
+- 50%: 100 proof vodka
+- 55%: Chartreuse, Mezcal, Armagnac
+- 75.5%: 151-Proof Rum
+
 For the first graph, ABV (Alcohol by Volume) of Cocktails, 
 it is targeted towards a layman interested in cocktails. Unlike other beverages, 
 cocktails are made from mixing various liquors, making it hard to determine how strong the drink is or it’s alcohol content. 
@@ -35,6 +36,7 @@ where the abv has been calculated by
 1. determining abv of all the ingredients
 2. calculate the alcohol oz of each ingredients: (abv x oz)/100 where abv is given as %
 3. for each cocktail drink, find abv(%): (sum of alcohol oz of the ingredients)/(sum of oz of all the liquid ingredients) x 100
+
 However, again, this would merely be a rough estimate as depending on the choice of liquors or the recipe, the abv would vary. 
 Therefore, when creating the plot, I have plotted only the name of the cocktails and jittered the position with width 0.5 and height 0.3 as the main goal of this plot lies in only providing guideline of rough estimate of the alcohol content so plotting only the name of the cocktails would allow easier visualization of it’s corresponding abv while allowing for minimum overlap between the plotted geoms. 
 For the same reason, text geoms have been plotted using geom_text_repel with the line segment, connecting the point and the text, being transparent. 

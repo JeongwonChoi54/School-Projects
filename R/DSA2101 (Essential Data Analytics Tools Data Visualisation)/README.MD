@@ -44,6 +44,7 @@ Another thing to note is that as the number of cocktails given were too many to 
 From the names of cocktails both appearing in ‘cocktails.csv’ and ‘boston_cocktails.csv’, as ‘Bloody Marry’ was the only data with too large of the total volume of the drink, it has been removed to make the plot be more compact. 
 Along with it’s abv, the total volume of the drink and the category in which it lies is also given. 
 Yet, as they are provided only as a reference, the axis text of x is removed and the size and the title for legend is reduced. 
+
 <img width="733" alt="Screen Shot 2023-03-26 at 10 22 52 PM" src="https://user-images.githubusercontent.com/99862881/227782245-a091d457-041f-4ccc-adc3-07a897a42475.png">
 
 The second graph is targeted towards more specific audience, those with basic understanding of statistics and has interest in cocktails as well. 
@@ -55,6 +56,7 @@ the legend has been removed.
 Even so, as the plots are still being too clustered to make any meaningful insights at a glance, 
 the stat_summary abv of each category is added in black for the corresponding category to show what the general distribution of abv of each category of drinks would be. 
 From this, it can be seen that boston cocktails in whiskey category would have higher abv compared to those in vodka category in general.
+
 <img width="550" alt="Screen Shot 2023-03-26 at 10 23 07 PM" src="https://user-images.githubusercontent.com/99862881/227782253-c0a19334-be8c-4aac-a09f-d40d72afc7fc.png">
 
 

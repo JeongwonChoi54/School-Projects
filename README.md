@@ -2,7 +2,7 @@
 
 > [Implementing various data structures using Java](https://github.com/JeongwonChoi54/School-Projects/tree/Codes/Java)
 
-> [Implement AI techniques with Python](https://github.com/JeongwonChoi54/School-Projects/tree/Codes/Python/CS3243%20(Intro%20to%20AI))
+> [Implementing basic AI techniques with Python](https://github.com/JeongwonChoi54/School-Projects/tree/Codes/Python/CS3243%20(Intro%20to%20AI))
 
 > [Python and PostgreSQL for CRUD operation from REST API](https://github.com/JeongwonChoi54/School-Projects/tree/Codes/Python/IT2002_Website)
 

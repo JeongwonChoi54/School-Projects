@@ -6,7 +6,9 @@ For easier management, open VScode and connect to EC2.
 The necessary command can be found under SSH client of the EC2 instance you have created.
 
 First, from terminal, connect to postgresql
-'sudo -i -u postgres'
+
+  sudo -i -u postgres
+  
 If postgres is not already installed,
 'sudo apt -y install postgresql-14'
 

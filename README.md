@@ -7,3 +7,5 @@
 > [Implementing various data structures using Java](https://github.com/JeongwonChoi54/School-Projects/tree/Codes/Java)
 
 > [Using R for data analysis & visualization](https://github.com/JeongwonChoi54/School-Projects/tree/Codes/R/DSA2101%20(Essential%20Data%20Analytics%20Tools%20Data%20Visualisation))
+
+> [Sentiment Classification using Torch](https://github.com/JeongwonChoi54/School-Projects/tree/Codes/Python/NLP)
